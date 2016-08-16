@@ -4,8 +4,6 @@
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <include android:id="@+id/id" layout="@layout/pager_head">
-    </include>
     <View
         android:layout_width="match_parent"
         android:layout_height="15dp"

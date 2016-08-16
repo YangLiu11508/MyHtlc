@@ -5,9 +5,6 @@
     android:background="#f3f3f3"
     android:orientation="vertical">
 
-    <include
-        android:id="@+id/id"
-        layout="@layout/pager_head" />
 
     <View
         android:layout_width="match_parent"
@@ -30,7 +27,7 @@
             android:textSize="14sp" />
 
         <FrameLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical">
 
@@ -44,7 +41,7 @@
 
             <EditText
                 android:id="@+id/et_top_up_chongzhi"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:hint="请输入充值金额"
@@ -77,7 +74,6 @@
         android:padding="15dp">
 
         <ImageView
-            android:id="@+id/wx_pay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/weixinxdpi_03" />
@@ -115,7 +111,6 @@
         android:padding="15dp">
 
         <ImageView
-            android:id="@+id/ali_pay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/zhifubaoxdpi_03" />

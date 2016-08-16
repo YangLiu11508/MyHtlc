@@ -1,15 +1,24 @@
 package com.jrjz_project.activity;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
 import com.htlc.jrjz.jrjz_project.R;
+import com.jrjz_project.common.base.BaseTitleActivity;
 
-public class ChangePhoneActivity extends AppCompatActivity {
+public class ChangePhoneActivity extends BaseTitleActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_change_phone);
+    public void initView() {
+        setTitleText("换绑手机");
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    protected int getContentResId() {
+        return R.layout.activity_change_phone;
     }
 }

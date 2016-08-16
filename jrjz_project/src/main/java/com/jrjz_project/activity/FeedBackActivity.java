@@ -1,18 +1,28 @@
 package com.jrjz_project.activity;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
 import com.htlc.jrjz.jrjz_project.R;
+import com.jrjz_project.common.base.BaseTitleActivity;
 
 /**
  * 意见反馈页
  */
-public class FeedBackActivity extends AppCompatActivity {
+public class FeedBackActivity extends BaseTitleActivity {
+
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.suggest_feedback);
+    public void initView() {
+        setTitleText("意见反馈");
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    protected int getContentResId() {
+        return R.layout.suggest_feedback;
     }
 }

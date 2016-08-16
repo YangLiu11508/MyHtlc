@@ -65,10 +65,10 @@ public abstract class BaseTitleActivity extends BaseActivity {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.base_titlebar_back:
+            case R.id.base_titlebar_back: //左边图片
                 baseGoBack();
                 break;
-            case R.id.base_titlebar_ensure:
+            case R.id.base_titlebar_ensure: //右边图片
                 baseGoEnsure();
                 break;
             default:
